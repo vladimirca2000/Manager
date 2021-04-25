@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "FluentValidation/10.0.4": {
+      "FluentValidation/9.3.0": {
         "type": "package",
         "compile": {
           "lib/net5.0/FluentValidation.dll": {}
@@ -24,22 +24,22 @@
     }
   },
   "libraries": {
-    "FluentValidation/10.0.4": {
-      "sha512": "LqEYHuF5gXBJzG9/aUQS50TJP5cZgh/twvPLV7iTtFFGF6isGBkNXOhr9VwmSjlFRIVOqcMtkGuHwuPbU+XpoQ==",
+    "FluentValidation/9.3.0": {
+      "sha512": "C44l6Ih+YwpED/TsXfl6LIq6Z4wLXahstnr6T70uUg1Hs7/bLBKKAo9Nl0sLhVjDE8TA+fF+O3IM4nDrwabcSQ==",
       "type": "package",
-      "path": "fluentvalidation/10.0.4",
+      "path": "fluentvalidation/9.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "fluent-validation-icon.png",
-        "fluentvalidation.10.0.4.nupkg.sha512",
+        "fluentvalidation.9.3.0.nupkg.sha512",
         "fluentvalidation.nuspec",
+        "lib/net461/FluentValidation.dll",
+        "lib/net461/FluentValidation.xml",
         "lib/net5.0/FluentValidation.dll",
         "lib/net5.0/FluentValidation.xml",
         "lib/netstandard2.0/FluentValidation.dll",
-        "lib/netstandard2.0/FluentValidation.xml",
-        "lib/netstandard2.1/FluentValidation.dll",
-        "lib/netstandard2.1/FluentValidation.xml"
+        "lib/netstandard2.0/FluentValidation.xml"
       ]
     },
     "Manager.Core/1.0.0": {
@@ -50,8 +50,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "FluentValidation >= 10.0.4",
-      "Manager.Core >= 1.0.0"
+      "Manager.Core >= 1.0.0",
+      "fluentvalidation >= 9.3.0"
     ]
   },
   "packageFolders": {
@@ -107,9 +107,9 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "FluentValidation": {
+          "fluentvalidation": {
             "target": "Package",
-            "version": "[10.0.4, )"
+            "version": "[9.3.0, )"
           }
         },
         "imports": [
