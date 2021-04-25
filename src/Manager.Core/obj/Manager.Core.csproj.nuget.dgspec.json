@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {}
+    "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
+    "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
+        "projectUniqueName": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
         "projectName": "Manager.Core",
-        "projectPath": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
+        "projectPath": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\obj\\",
+        "outputPath": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

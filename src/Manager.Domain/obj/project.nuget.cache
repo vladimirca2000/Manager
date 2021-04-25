@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1skn3+8QEEix8XNU+nZ8F/fbhITRu8xiLJ8xbO/iJA9uq8jnf0KKQtCsj5q/FgP3zl6sBC6BTmarwZPjt148Jg==",
+  "dgSpecHash": "/acJNiITGC6TaoDTyhP6EsOBio0F2JkOU1C060pwijDjkEh8afwJKdfJusjnVCXDcb2bi1Db42TVu91uc6gK6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
+  "projectFilePath": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vladi\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512"
   ],

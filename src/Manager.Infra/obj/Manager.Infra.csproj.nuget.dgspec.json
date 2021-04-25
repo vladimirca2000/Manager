@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\manager.infra\\Manager.Infra.csproj": {}
+    "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
+    "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
+        "projectUniqueName": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
         "projectName": "Manager.Core",
-        "projectPath": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
+        "projectPath": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\obj\\",
+        "outputPath": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj": {
+    "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
         "projectName": "Manager.Domain",
-        "projectPath": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
+        "projectPath": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\obj\\",
+        "outputPath": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -96,8 +96,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
-                "projectPath": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj"
+              "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
+                "projectPath": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Core\\Manager.Core.csproj"
               }
             }
           }
@@ -136,14 +136,14 @@
         }
       }
     },
-    "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\manager.infra\\Manager.Infra.csproj": {
+    "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\manager.infra\\Manager.Infra.csproj",
+        "projectUniqueName": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj",
         "projectName": "Manager.Infra",
-        "projectPath": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\manager.infra\\Manager.Infra.csproj",
+        "projectPath": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\manager.infra\\obj\\",
+        "outputPath": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -167,8 +167,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj": {
-                "projectPath": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj"
+              "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj": {
+                "projectPath": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj"
               }
             }
           }

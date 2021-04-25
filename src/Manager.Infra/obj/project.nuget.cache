@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pGweqsM0K77ceeQvYk9oT1vaWYHRhavH1Zj0JGtgyF/2ZDtYErdiTekp99DNxsLZ3A4FIhDWrGBUk102iDjqxw==",
+  "dgSpecHash": "/7wYYjsVQg91JnbzrdyO/mr/y6ZZs7yPiORGNGQ/hj/uFkZTJd5sriZrZnVW4Rc+tINdtrVm3HU2HBG0IsR0Vw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\manager.infra\\Manager.Infra.csproj",
+  "projectFilePath": "c:\\Users\\vladi\\OneDrive\\Local_Meu_Computador\\Cursos\\API_Net5\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vladi\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

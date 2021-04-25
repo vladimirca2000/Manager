@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+<ItemGroup>
+    <PackageReference Include="automapper" Version="10.1.1" />
+    <PackageReference Include="EscNet" Version="1.0.1" />
+  </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Manager.Domain\Manager.Domain.csproj" />
     <ProjectReference Include="..\Manager.Core\Manager.Core.csproj" />
