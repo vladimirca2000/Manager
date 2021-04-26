@@ -38,7 +38,7 @@ namespace Manager.API
             services.AddControllers();
 
             #region Jwt
-            
+
             var secretKey = Configuration["Jwt:Key"];
 
             services.AddAuthentication(x =>
@@ -62,7 +62,7 @@ namespace Manager.API
             #endregion
 
             #region AutoMapper
-            
+
             var autoMapperConfig = new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<User, UserDTO>().ReverseMap();
@@ -71,13 +71,17 @@ namespace Manager.API
             });
 
             services.AddSingleton(autoMapperConfig.CreateMapper());
-            
+
             #endregion
 
             #region DI
 
             services.AddSingleton(d => Configuration);
-            services.AddDbContext<ManagerContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:USER_MANAGER"]), ServiceLifetime.Transient);
+            services.AddDbContext<ManagerContext>(options => options.UseSqlite(Configuration.GetConnectionString("USER_MANAGER")));
+            //services.AddDbContext<ManagerContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:USER_MANAGER"]), ServiceLifetime.Transient);
+            //services.AddDbContext<ContactsDbContext>(options =>
+            //            options.UseSqlServer(Configuration.GetConnectionString("USER_MANAGER")));
+            //services.AddControllers();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ITokenGenerator, TokenGenerator>();
@@ -95,12 +99,12 @@ namespace Manager.API
                     Description = "API construída na serie de vídeos no canal Lucas Eschechola.",
                     Contact = new OpenApiContact
                     {
-                        Name = "Lucas Eschechola",
-                        Email = "lucas.gabriel@eu.com",
-                        Url = new Uri("https://eschechola.com.br")
+                        Name = "Vladimir Alves",
+                        Email = "vladimirca2000@gmail.com",
+                        Url = new Uri("https://www.vladimir.eti.br")
                     },
                 });
-                
+
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     In = ParameterLocation.Header,
@@ -147,7 +151,7 @@ namespace Manager.API
             app.UseRouting();
 
             app.UseAuthentication();
-            
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
