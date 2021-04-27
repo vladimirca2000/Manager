@@ -31,6 +31,20 @@ namespace Manager.Infra.Repositories
             return user.FirstOrDefault();
         }
 
+        public async Task<User> GetByName(string name)
+        {
+            var user = await _context.Users
+                                   .Where
+                                   (
+                                        x =>
+                                            x.Name.ToLower() == name.ToLower()
+                                    )
+                                    .AsNoTracking()
+                                    .ToListAsync();
+
+            return user.FirstOrDefault();
+        }
+
         public async Task<List<User>> SearchByEmail(string email)
         {
             var allUsers = await _context.Users
